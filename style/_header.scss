@@ -1,0 +1,49 @@
+.header {
+  margin-top: 40px;
+
+  &__navbar {
+    position: relative;
+    z-index: 100;
+
+    &__secondary-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      &__links {
+        transform: translateY(-10px);
+      }
+
+      &__links :not(:last-child) {
+        margin-right: 36px;
+      }
+
+      &__buttons :not(:last-child) {
+        margin-right: 16px;
+      }
+
+      &__hamburger {
+        display: none;
+      }
+    }
+  }
+
+  &__hero__primary-container {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__content {
+      max-width: 489px;
+
+      &__heading {
+        margin-bottom: 30px;
+      }
+
+      &__text {
+        margin-bottom: 46px;
+      }
+    }
+  }
+}

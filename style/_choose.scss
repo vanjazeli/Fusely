@@ -1,0 +1,72 @@
+.choose {
+  margin-top: 220px;
+}
+
+.choose__primary-container {
+  &__heading {
+    text-align: center;
+    margin-bottom: 90px;
+  }
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__card {
+      &__text-one {
+        margin-bottom: 30px;
+      }
+
+      &__image {
+        margin-bottom: 30px;
+      }
+
+      &__text-two {
+        margin-bottom: 14px;
+      }
+
+      &__text-three {
+        margin-bottom: 14px;
+      }
+
+      &__text-four {
+        margin-bottom: 46px;
+      }
+    }
+
+    & > :nth-child(2) {
+      padding: 70px 46px;
+      padding-bottom: 86px;
+    }
+
+    & > :nth-child(2) .choose__primary-container__content__card__text-one {
+      margin-bottom: 40px;
+    }
+
+    & > :nth-child(2) .choose__primary-container__content__card__image {
+      margin-bottom: 40px;
+    }
+
+    & > :nth-child(2) .choose__primary-container__content__card__text-two {
+      margin-bottom: 14px;
+    }
+
+    & > :nth-child(2) .choose__primary-container__content__card__text-three {
+      margin-bottom: 14px;
+    }
+
+    & > :nth-child(2) .choose__primary-container__content__card__text-four {
+      margin-bottom: 56px;
+    }
+
+    & > :nth-child(2) .choose__primary-container__content__card__button {
+      padding: 16px 47px;
+      font-size: 16px;
+    }
+
+    & > :not(:last-child) {
+      margin-right: 45px;
+    }
+  }
+}

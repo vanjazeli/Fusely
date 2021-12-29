@@ -1,0 +1,18 @@
+.creative__primary-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 220px;
+
+  &__content {
+    max-width: 400px;
+
+    &__heading {
+      margin-bottom: 24px;
+    }
+
+    &__text {
+      margin-bottom: 24px;
+    }
+  }
+}
