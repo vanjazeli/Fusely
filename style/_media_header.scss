@@ -1,0 +1,22 @@
+@media (max-width: 1260px) {
+  .header__navbar__secondary-container {
+    &__links {
+      display: none;
+    }
+    &__buttons {
+      display: none;
+    }
+    &__hamburger {
+      display: block;
+    }
+  }
+
+  .header__hero__primary-container {
+    flex-direction: column;
+
+    &__content {
+      max-width: max-content;
+      margin-bottom: 46px;
+    }
+  }
+}

@@ -11,7 +11,7 @@
       justify-content: space-between;
 
       &__links {
-        transform: translateY(-10px);
+        transform: translateY(-5px);
       }
 
       &__links :not(:last-child) {
@@ -44,6 +44,10 @@
       &__text {
         margin-bottom: 46px;
       }
+    }
+
+    &__image {
+      width: 100%;
     }
   }
 }

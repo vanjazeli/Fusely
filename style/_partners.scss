@@ -1,7 +1,21 @@
 .partners {
-  max-width: 900px;
+  width: 920px;
   display: flex;
-  justify-content: space-between;
   margin: 0 auto;
+  justify-content: center;
+  align-items: center;
   margin-top: 120px;
+
+  &__one {
+    :not(:last-child) {
+      margin-right: 102px;
+    }
+    margin-right: 102px;
+  }
+
+  &__two {
+    :not(:last-child) {
+      margin-right: 102px;
+    }
+  }
 }
