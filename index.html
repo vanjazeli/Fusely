@@ -10,6 +10,10 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="/style/style.css" />
     <title>Fusely</title>
   </head>
@@ -398,6 +402,90 @@
       </div>
     </div>
 
+    <!-- Customer Stories -->
+
+    <div class="customer">
+      <div class="customer__primary-container primary-container">
+        <h2 class="customer__primary-container__heading h2 h2--desktop">
+          Customer Stories
+        </h2>
+        <img
+          src="/img/quotes.svg"
+          alt=""
+          class="customer__primary-container__quotes"
+        />
+        <div class="customer__primary-container__content">
+          <div
+            class="customer__primary-container__content__swiper swiper mySwiper"
+          >
+            <div
+              class="
+                customer__primary-container__content__swiper__wrapper
+                swiper-wrapper
+              "
+            >
+              <!-- Card -->
+              <div class="swiper-slide card-three">
+                <p class="card-three__text-one body-quotes">
+                  “Using Fusely was the best experience I’ve ever had! Highly
+                  recommended.”
+                </p>
+                <p class="card-three__text-two body-small">
+                  - Jane Cooper, Binary
+                </p>
+              </div>
+              <!-- Card -->
+              <div class="swiper-slide card-three">
+                <p class="card-three__text-one body-quotes">
+                  “Working with the team from Fusely was a pleasure. They're
+                  extremely experienced people doing unbelievable things.”
+                </p>
+                <p class="card-three__text-two body-small">
+                  - Ralph Edwards, sqaure.io
+                </p>
+              </div>
+              <!-- Card -->
+              <div class="swiper-slide card-three">
+                <p class="card-three__text-one body-quotes">
+                  “Fusely provided us with great service and interaction in a
+                  very short amount of time.”
+                </p>
+                <p class="card-three__text-two body-small">
+                  - Kathryn Murphy, Loogipsum
+                </p>
+              </div>
+              <!-- Card -->
+              <div class="swiper-slide card-three">
+                <p class="card-three__text-one body-quotes">
+                  “Using Fusely was the best experience I’ve ever had! Highly
+                  recommended.”
+                </p>
+                <p class="card-three__text-two body-small">
+                  - Jane Cooper, Binary
+                </p>
+              </div>
+              <!-- Card -->
+              <div class="swiper-slide card-three">
+                <p class="card-three__text-one body-quotes">
+                  “Working with the team from Fusely was a pleasure. They're
+                  extremely experienced people doing unbelievable things.”
+                </p>
+                <p class="card-three__text-two body-small">
+                  - Ralph Edwards, sqaure.io
+                </p>
+              </div>
+            </div>
+            <div
+              class="
+                customer__primary-container__content__swiper__pagination
+                swiper-pagination
+              "
+            ></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- From Our Blog -->
 
     <div class="blog">
@@ -637,7 +725,7 @@
         </div>
       </div>
     </div>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <script src="/app/app.js"></script>
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   </body>
 </html>

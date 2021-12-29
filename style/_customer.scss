@@ -1,0 +1,36 @@
+.customer {
+  margin-top: 220px;
+
+  &__primary-container {
+    position: relative;
+
+    &__heading {
+      margin-bottom: 128px;
+    }
+
+    &__quotes {
+      position: absolute;
+      top: -35px;
+      left: -20px;
+      z-index: -1;
+    }
+
+    &__content__swiper {
+      min-height: 328px;
+
+      &__pagination {
+        position: relative;
+        margin-top: 80px;
+
+        .swiper-pagination-bullet {
+          height: 14px;
+          width: 14px;
+        }
+
+        .swiper-pagination-bullet-active {
+          background: $neutral-500;
+        }
+      }
+    }
+  }
+}

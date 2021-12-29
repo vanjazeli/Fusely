@@ -122,6 +122,14 @@ $black: #000;
   color: $neutral-500;
 }
 
+.body-quotes {
+  font-family: "Open Sans", sans-serif;
+  font-size: 22px;
+  font-style: italic;
+  line-height: 34px;
+  color: $neutral-300;
+}
+
 // containers
 
 .primary-container {
@@ -256,5 +264,18 @@ $black: #000;
     &__text {
       margin-bottom: 26px;
     }
+  }
+}
+
+.card-three {
+  padding: 80px 60px;
+  background: rgba(236, 235, 255, 0.3);
+  border-radius: 2px;
+  max-width: 566px !important;
+  height: 100%;
+  min-height: 328px;
+
+  &__text-one {
+    margin-bottom: 40px;
   }
 }
