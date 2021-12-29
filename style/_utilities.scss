@@ -94,6 +94,15 @@ $black: #000;
   font-size: 16px;
   line-height: 26px;
   color: $neutral-300;
+  text-decoration: none;
+}
+
+.body-small-one {
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  line-height: 16px;
+  color: $neutral-300;
 }
 
 .body-title {
@@ -101,7 +110,7 @@ $black: #000;
   font-weight: bold;
   font-size: 18px;
   line-height: 24px;
-  color: $black;
+  color: $neutral-500;
 }
 
 .body-title-one {
