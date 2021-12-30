@@ -260,8 +260,8 @@ body {
   font-family: "Open Sans", sans-serif;
   position: relative;
   background: #ffffff;
-  -webkit-transition: 500ms ease-in-out opacity;
-  transition: 500ms ease-in-out opacity;
+  -webkit-transition: 1000ms ease-in-out opacity;
+  transition: 1000ms ease-in-out opacity;
   opacity: 0;
 }
 
@@ -356,7 +356,6 @@ html {
 .header__navbar {
   position: relative;
   z-index: 100;
-  background: #ffffff;
 }
 
 .header__navbar__secondary-container {
