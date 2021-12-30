@@ -4,6 +4,7 @@
   &__navbar {
     position: relative;
     z-index: 100;
+    background: $neutral-100;
 
     &__secondary-container {
       display: flex;
