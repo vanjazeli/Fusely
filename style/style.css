@@ -356,6 +356,7 @@ html {
 .header__navbar {
   position: relative;
   z-index: 100;
+  background: #ffffff;
 }
 
 .header__navbar__secondary-container {
