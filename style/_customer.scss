@@ -32,5 +32,16 @@
         }
       }
     }
+
+    &__content__cards {
+      display: none;
+      justify-content: baseline;
+      flex-direction: column;
+      align-items: center;
+
+      .card-three {
+        margin-bottom: 45px;
+      }
+    }
   }
 }

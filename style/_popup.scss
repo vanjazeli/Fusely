@@ -3,10 +3,10 @@
   width: 100vw;
   position: absolute;
   top: -100vh;
-  // top: 0;
   background: $neutral-100;
   z-index: 99;
   transform: translateY(-40px);
+  transition: 250ms ease-in-out all;
 
   &__secondary-container {
     position: relative;

@@ -1,0 +1,15 @@
+@media (max-width: 1260px) {
+  .creative__primary-container {
+    margin-top: 140px;
+    flex-direction: column;
+
+    &__image {
+      max-width: 688px;
+    }
+
+    &__content {
+      max-width: 688px;
+      margin-bottom: 50px;
+    }
+  }
+}

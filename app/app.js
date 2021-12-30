@@ -23,7 +23,6 @@ function swiperPosition() {
     let swiperOffset = (windowWidth - containerWidth) / 2;
     mySwiper.style.transform = `translateX(-${swiperOffset}px)`;
     mySwiper.style.width = `calc(100vw)`;
-    console.log(swiperOffset);
   } else {
     let swiperOffset = 129;
     mySwiper.style.transform = `translateX(-${swiperOffset}px)`;
@@ -33,3 +32,29 @@ function swiperPosition() {
 
 window.onload = swiperPosition();
 window.addEventListener("resize", swiperPosition);
+
+// hamburger
+
+let hamburgerToggler = false;
+
+const popup = document.querySelector(".popup");
+const hamburger = document.querySelector(
+  ".header__navbar__secondary-container__hamburger"
+);
+
+function hamburgerToggle(e) {
+  if (
+    e.target.getAttribute("data-role") === "hamburger" &&
+    hamburgerToggler === false
+  ) {
+    popup.style.top = "0";
+    hamburger.innerHTML = `<img src="/img/Menu Close.svg" alt="" data-role="hamburger"/>`;
+    hamburgerToggler = true;
+  } else {
+    popup.style.top = `-100vh`;
+    hamburger.innerHTML = `<img src="/img/hamburger.svg" alt="" data-role="hamburger"/>`;
+    hamburgerToggler = false;
+  }
+}
+
+document.addEventListener("click", hamburgerToggle);

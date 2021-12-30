@@ -24,6 +24,7 @@
 
       &__hamburger {
         display: none;
+        transition: 250ms ease-in-out;
       }
     }
   }
@@ -48,6 +49,7 @@
 
     &__image {
       width: 100%;
+      max-width: 688px;
     }
   }
 }
