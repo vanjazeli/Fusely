@@ -1,13 +1,22 @@
-// @media (max-width: 1260px) {
-//   .blog {
-//     margin-top: 140px;
+@media (max-width: 1260px) {
+  .blog {
+    margin-top: 140px;
+    margin-bottom: 140px;
+  }
+}
 
-//     &__primary-container {
-//       &__section-two {
-//         grid-template-columns: 1fr;
-//       }
-//     }
-//   }
-// }
+@media (max-width: 1000px) {
+  .blog {
+    &__primary-container {
+      &__section-two {
+        grid-template-columns: 1fr;
+      }
+    }
+  }
+}
 
-// OVAJ NE MORA DA SE RADI KAO I ONE GORE SEKCIJE
+@media (max-width: 900px) {
+  .blog {
+    margin-bottom: 140px;
+  }
+}

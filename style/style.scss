@@ -1,10 +1,15 @@
+@import "./utilities";
 body {
   font-family: "Open Sans", sans-serif;
   position: relative;
+  background: $neutral-100;
+  transition: 500ms ease-in-out opacity;
+  opacity: 0;
 }
 
 html {
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 * {
@@ -12,8 +17,6 @@ html {
   padding: 0;
   box-sizing: border-box;
 }
-
-@import "./utilities";
 
 // sections
 
@@ -30,6 +33,7 @@ html {
 
 // media queries
 
+@import "./media_utilities";
 @import "./media_header";
 @import "./media_partners";
 @import "./media_detailed";
@@ -38,3 +42,4 @@ html {
 @import "./media_choose";
 @import "./media_customer";
 @import "./media_blog";
+@import "./media_footer";

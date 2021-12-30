@@ -58,3 +58,55 @@ function hamburgerToggle(e) {
 }
 
 document.addEventListener("click", hamburgerToggle);
+
+// text responsiveness
+
+let headingOne = document.querySelector(".h1--desktop");
+let headingTwo = document.querySelectorAll(".h2--desktop");
+
+function textResponsiveness() {
+  let windowWidth = window.innerWidth;
+  if (windowWidth <= 450) {
+    headingOne.classList.add("h1--mobile");
+    for (let i = 0; i < headingTwo.length; i++) {
+      headingTwo[i].classList.add("h2--mobile");
+    }
+  } else {
+    headingOne.classList.remove("h1--mobile");
+    for (let i = 0; i < headingTwo.length; i++) {
+      headingTwo[i].classList.remove("h2--mobile");
+    }
+  }
+}
+
+textResponsiveness();
+window.addEventListener("resize", textResponsiveness);
+
+// footer date
+
+let footerText = document.querySelector(
+  ".footer__bottom__secondary-container__text"
+);
+
+let year = new Date().getFullYear();
+
+footerText.textContent = `© Fusely ${year}. All rights reserved.`;
+
+// load
+
+let body = document.querySelector("body");
+
+body.style.opacity = `1`;
+
+// theme
+
+// let hours = new Date().getHours();
+
+// hours = 23;
+
+// const body = document.querySelector("body");
+
+// if (hours <= 7 || hours >= 19) {
+//   body.style.background = `#12111A
+//   `;
+// }
