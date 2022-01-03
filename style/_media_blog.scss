@@ -1,12 +1,14 @@
 @media (max-width: 1260px) {
   .blog {
     margin-top: 140px;
-    margin-bottom: 140px;
+    margin-bottom: 370px;
   }
 }
 
 @media (max-width: 1000px) {
   .blog {
+    margin-bottom: 260px;
+
     &__primary-container {
       &__section-two {
         grid-template-columns: 1fr;

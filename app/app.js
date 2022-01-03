@@ -48,11 +48,11 @@ function hamburgerToggle(e) {
     hamburgerToggler === false
   ) {
     popup.style.top = "0";
-    hamburger.innerHTML = `<img src="/img/Menu Close.svg" alt="" data-role="hamburger"/>`;
+    hamburger.classList.add("is-active");
     hamburgerToggler = true;
   } else {
     popup.style.top = `-100vh`;
-    hamburger.innerHTML = `<img src="/img/hamburger.svg" alt="" data-role="hamburger"/>`;
+    hamburger.classList.remove("is-active");
     hamburgerToggler = false;
   }
 }
