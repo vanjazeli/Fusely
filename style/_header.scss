@@ -1,9 +1,10 @@
 .header {
-  margin-top: 40px;
-
   &__navbar {
     position: relative;
     z-index: 100;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: $neutral-100;
 
     &__secondary-container {
       display: flex;
@@ -25,12 +26,13 @@
       &__hamburger {
         display: none;
         transition: 250ms ease-in-out;
+        cursor: pointer;
       }
     }
   }
 
   &__hero__primary-container {
-    margin-top: 80px;
+    margin-top: 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;

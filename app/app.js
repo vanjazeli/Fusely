@@ -97,16 +97,3 @@ footerText.textContent = `© Fusely ${year}. All rights reserved.`;
 let body = document.querySelector("body");
 
 body.style.opacity = `1`;
-
-// theme
-
-// let hours = new Date().getHours();
-
-// hours = 23;
-
-// const body = document.querySelector("body");
-
-// if (hours <= 7 || hours >= 19) {
-//   body.style.background = `#12111A
-//   `;
-// }
