@@ -27,3 +27,29 @@
     }
   }
 }
+
+@media (max-width: 450px) {
+  .partners {
+    &__one {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 0px;
+
+      * {
+        margin-bottom: 46px;
+        margin-right: 0px !important;
+      }
+    }
+
+    &__two {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 0px;
+
+      :not(:last-child) {
+        margin-bottom: 46px;
+        margin-right: 0px !important;
+      }
+    }
+  }
+}
