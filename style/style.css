@@ -751,6 +751,8 @@ html {
 
 .customer__primary-container__content__swiper {
   min-height: 328px;
+  cursor: -webkit-grab;
+  cursor: grab;
 }
 
 .customer__primary-container__content__swiper__pagination {
