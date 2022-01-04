@@ -30,7 +30,7 @@ function swiperPosition() {
   }
 }
 
-window.onload = swiperPosition();
+// window.onload = swiperPosition();
 window.addEventListener("resize", swiperPosition);
 
 // hamburger
@@ -79,7 +79,7 @@ function textResponsiveness() {
   }
 }
 
-textResponsiveness();
+// textResponsiveness();
 window.addEventListener("resize", textResponsiveness);
 
 // footer date
@@ -96,4 +96,11 @@ footerText.textContent = `© Fusely ${year}. All rights reserved.`;
 
 let body = document.querySelector("body");
 
-body.style.opacity = `1`;
+// document.addEventListener("onload", () => {
+// });
+
+window.onload = () => {
+  textResponsiveness();
+  swiperPosition();
+  body.style.opacity = `1`;
+};
