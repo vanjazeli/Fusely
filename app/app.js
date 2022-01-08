@@ -302,3 +302,12 @@ gsap.from(".gsap-blog-third", {
     toggleActions: "play none none none",
   },
 });
+
+gsap.from(".footer", {
+  opacity: 0,
+  duration: 1,
+  scrollTrigger: {
+    trigger: ".footer",
+    toggleActions: "play none none none",
+  },
+});
