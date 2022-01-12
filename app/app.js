@@ -66,7 +66,7 @@ let headingTwo = document.querySelectorAll(".h2--desktop");
 
 function textResponsiveness() {
   let windowWidth = window.innerWidth;
-  if (windowWidth <= 450) {
+  if (windowWidth <= 500) {
     headingOne.classList.add("h1--mobile");
     for (let i = 0; i < headingTwo.length; i++) {
       headingTwo[i].classList.add("h2--mobile");
