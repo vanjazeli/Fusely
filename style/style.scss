@@ -5,6 +5,7 @@ body {
   background: $neutral-100;
   transition: 1000ms ease-in-out opacity;
   opacity: 0;
+  overflow-x: hidden;
 }
 
 html {
